@@ -90,8 +90,8 @@ const Hero = ({users}) => {
           className="flex justify-center"
         >
           <motion.img
-          //  src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
-            src="public/spring/3.jpg"
+           src="https://raw.githubusercontent.com/chandanr54/portfolio-react/refs/heads/main/public/spring/3.jpg"
+          //  src="public/spring/3.jpg"
             alt="developer"
             className="w-72 md:w-96 drop-shadow-lg"
             animate={{ y: [0, -10, 0] }}
