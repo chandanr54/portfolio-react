@@ -72,7 +72,7 @@ authorization mechanisms.`,
       projectsTechnology: ["Spring Boot","Spring Security","MySQL","JWT","Hibernate ORM"],
       gitUrl:"",
       projectUrl:"",
-      imageUrl:"public/spring/CPWD.png"
+      imageUrl:`https://github.com/chandanr54/portfolio-react/blob/main/public/spring/CPWD.png?raw=true`
     },
     {
       projectName: "Delhi Health and information Management System (DHIMS):",
@@ -89,7 +89,7 @@ Bootstrap for a better user experience.
       projectsTechnology: ["Spring Boot"," Spring Security", "JPA","MySQL","JavaScript","Bootstrap"],
       gitUrl:"",
       projectUrl:"",
-      imageUrl:"public/spring/DHIMS.png"
+      imageUrl:`https://github.com/chandanr54/portfolio-react/blob/main/public/spring/DHIMS.png?raw=true`
     },
     {
       projectName: " Learning Management System (LMS)",
@@ -107,7 +107,7 @@ Swagger for developer clarity.
       projectsTechnology: ["Spring Boot", "JPA","MySQL","Spring Security","Swagger"],
       gitUrl:"",
       projectUrl:"",
-      imageUrl:"public/spring/LMS.png"
+      imageUrl:`https://github.com/chandanr54/portfolio-react/blob/main/public/spring/LMS.png?raw=true`
     },
     {
       projectName: "Portfolio",
@@ -129,7 +129,7 @@ production hosting. `,
       projectsTechnology: ["Spring Boot", "React (Vite) ","CI/CD pipelines"," React, HTML/CSS","JavaScript","JPA","PostgreSQL","Spring Security","Docker","AWS"],
       gitUrl:"https://github.com/chandanr54/portfolio",
       projectUrl:"https://chandanr54.github.io/portfolio/",
-      imageUrl:"public/spring/CPWD.png"
+      imageUrl:`https://github.com/chandanr54/portfolio-react/blob/main/public/spring/portfolio.png?raw=true`
     }
   ];
   
