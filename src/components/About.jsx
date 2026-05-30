@@ -21,7 +21,7 @@ const About = ({skills}) => {
           <div className="relative group">
             <motion.img
               //src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-              src="public/spring/profile2.jpeg"
+              src={username.userImage}
               alt="profile"
               className="w-72 md:w-80 rounded-2xl shadow-xl"
               whileHover={{ scale: 1.05 }}
@@ -105,7 +105,7 @@ const About = ({skills}) => {
             className="mt-8"
           >
             <a
-              href="public/spring/resume.pdf"
+              href={username.userResume}
               download="Chandan_Resume.pdf"
               className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl shadow-md transition hover:scale-105"
             >
