@@ -18,7 +18,7 @@ const Footer = ({users}) => {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-2xl font-bold text-gray-800 dark:text-white"
         >
-          {users?.name || "Chandan Kumar"} {users?.lastName} 🚀
+          {users?.name || "Chandan Kumar"} {users?.lastName} 🍃
         </motion.h2>
 
         {/* TAGLINE */}
@@ -56,14 +56,14 @@ const Footer = ({users}) => {
             <FaLinkedin />
           </motion.a>
 
-          <motion.a
+          {/* <motion.a
             whileHover={{ scale: 1.3 }}
             href="https://twitter.com/"
             target="_blank"
             className="text-gray-700 dark:text-white hover:text-blue-500"
           >
             <FaTwitter />
-          </motion.a>
+          </motion.a> */}
         </motion.div>
 
         {/* DIVIDER */}

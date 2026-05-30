@@ -18,7 +18,7 @@ const Navbar = () => {
         whileHover={{ scale: 1.1 }}
         className="text-xl font-bold dark:text-white cursor-pointer"
       >
-        Portfolio 🚀
+        Portfolio 🍃
       </motion.h1>
 
       {/* MENU */}
@@ -37,8 +37,8 @@ const Navbar = () => {
 
       {/* RIGHT SIDE */}
       <div className="flex items-center gap-4">
-
-        {/* LOGIN */}
+          
+        {/* LOGIN 
         <Link to="/login">
         <motion.button
           whileHover={{ scale: 1.1 }}
@@ -48,7 +48,7 @@ const Navbar = () => {
         </motion.button>
         </Link>
 
-        {/* SIGNUP */}
+        {/* SIGNUP 
         <Link to="/register">
         <motion.button
           whileHover={{ scale: 1.1 }}
@@ -56,7 +56,7 @@ const Navbar = () => {
         >
           Register
         </motion.button>
-        </Link>
+        </Link>*/}
 
 
         {/* THEME TOGGLE */}

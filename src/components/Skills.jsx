@@ -1,15 +1,10 @@
 
 import { motion } from "framer-motion";
 
-// const skillsData = [
-//   { name: "Java", level: 90 },
-//   { name: "Spring Boot", level: 85 },
-//   { name: "React", level: 80 },
-//   { name: "MySQL", level: 75 },
-//   { name: "Docker", level: 70 },
-// ];
 
 const Skills = ({ skills }) => {
+
+  console.log("Skil on Skill.jsx",skills)
   
 
   return (

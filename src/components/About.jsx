@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+import { use } from "react";
 import { TypeAnimation } from "react-type-animation";
+import { username } from "../constants/Const";
 
 const About = ({skills}) => {
   return (
@@ -18,7 +20,8 @@ const About = ({skills}) => {
         >
           <div className="relative group">
             <motion.img
-              src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+              //src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+              src="public/spring/profile2.jpeg"
               alt="profile"
               className="w-72 md:w-80 rounded-2xl shadow-xl"
               whileHover={{ scale: 1.05 }}
@@ -66,11 +69,13 @@ const About = ({skills}) => {
             transition={{ delay: 0.5 }}
             className="mt-6 text-gray-600 dark:text-gray-300 leading-relaxed"
           >
-            I specialize in building REST APIs, implementing JWT authentication,
+            {/* I specialize in building REST APIs, implementing JWT authentication,
             and developing full-stack applications using{" "}
             <span className="text-green-500 font-semibold">
               React + Spring Boot
-            </span>.
+            </span>. */}
+
+            {username.summary }
           </motion.p>
 
           {/* SKILLS */}
@@ -100,7 +105,8 @@ const About = ({skills}) => {
             className="mt-8"
           >
             <a
-              href="/resume.pdf"
+              href="public/spring/resume.pdf"
+              download="Chandan_Resume.pdf"
               className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl shadow-md transition hover:scale-105"
             >
               Download Resume 📄

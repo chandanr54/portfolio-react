@@ -2,8 +2,11 @@ import { useEffect, useState } from "react";
 import * as api from "../service/api";
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import { skillslogo } from "../constants/Const";
 
 const Hero = ({users}) => {
+
+ 
  
   const navigate = useNavigate();
   
@@ -43,7 +46,8 @@ const Hero = ({users}) => {
             transition={{ delay: 0.3 }}
             className="text-xl md:text-2xl mt-4 text-gray-700 dark:text-gray-300"
           >
-            Java Spring Boot Developer 🚀
+            {skillslogo.join(" | ")}
+           
           </motion.h2>
 
           <motion.p
@@ -52,9 +56,7 @@ const Hero = ({users}) => {
             transition={{ delay: 0.5 }}
             className="mt-6 text-gray-600 dark:text-gray-400 leading-relaxed"
           >
-            I build scalable backend systems using Spring Boot and modern web
-            applications using React. Passionate about clean code, security, and
-            performance.
+            {users.summary || "I build scalable backend systems using Spring Boot and modern web applications using React. Passionate about clean code, security, and performance."}
           </motion.p>
 
           {/* BUTTONS 
@@ -88,7 +90,8 @@ const Hero = ({users}) => {
           className="flex justify-center"
         >
           <motion.img
-            src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+          //  src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+            src="public/spring/3.jpg"
             alt="developer"
             className="w-72 md:w-96 drop-shadow-lg"
             animate={{ y: [0, -10, 0] }}
